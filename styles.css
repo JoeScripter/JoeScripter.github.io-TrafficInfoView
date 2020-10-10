@@ -1,0 +1,27 @@
+.row{
+    margin: 20px;
+}
+body{
+    background-color: rgb(99, 99, 99)
+}
+.container{
+    background-color: white;
+}
+.mainRow:nth-child(odd){
+    background-color: lightgray;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.image{
+    width: 70%;
+}
+.center{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+h1{
+    text-align: center;
+}
